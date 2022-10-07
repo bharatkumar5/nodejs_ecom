@@ -11,8 +11,8 @@ const { concat } = require('lodash');
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'bharatkumar18002@gmail.com',
-        pass: 'mixtwunfptofxqez'
+        user: 'bharatkumar18002@gmail.com'
+       
 
     }
 })
